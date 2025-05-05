@@ -1,0 +1,782 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(14, 107, 168, 1);
+    font-family: "Poppins", sans-serif;
+}
+@media screen and (max-width:880px) {
+    
+    .links{
+        display:none;
+    }
+    .menu{
+        display: block;
+        
+    }
+.navlogo{
+    padding: 0;
+    margin: 0;
+}
+    
+    
+    
+    
+    .row{
+        flex-direction: column;
+        
+        
+    }
+    .colm1{
+        padding: 15px;
+    } 
+     .colm2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1px;
+     }
+    .row2{
+        flex-direction: column;
+    }
+    .row3{
+        flex-direction: column;
+    }
+    .brandLogo{
+        flex-direction: column;
+    }
+    .mem-block{
+         justify-content: center;
+        flex-direction: column;
+        gap:50px;
+    }
+    .container{
+        justify-content: space-between;
+       padding: 0 10px;
+    }
+    .box-set{
+    margin: 0 23px;
+    }
+   
+    
+
+    
+
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    font-family: "Poppins", sans-serif;
+
+}
+.container .navlogo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-colm {
+    display: flex;
+    font-size: 20px;
+    gap: 50px;
+    color: rgba(240, 248, 255, 0.566);
+
+}
+.nav-colm a i{
+ font-size: 23px;
+ text-decoration: none;
+}
+.nav-colm i:hover{
+    text-decoration: none;
+}
+
+
+.nav-colm a {
+    color: rgba(255, 255, 255, 0.566);
+    text-decoration: none;
+    /* font-weight: 900;
+    font-size: large; */
+
+}
+
+.nav-colm a:hover {
+    border-bottom: 3px solid blue;
+    color: grey;
+    text-decoration: none;
+}
+
+.logo {
+
+    font-size: 44px;
+}
+
+.menu i{
+    font-size: 23px;
+    color:aliceblue;
+}
+
+/* <----section1----start----> */
+.section1 {
+    height: 100%;
+    padding: 0  0 70px;
+
+    align-items: center;
+}
+
+.content {
+
+    font-weight: 800;
+    font-size: 50px;
+    color: aliceblue;
+    margin-top: 46px;
+
+}
+
+.btn {
+    height: 40px;
+    width: 149px;
+    font-size: 17px;
+    color: aliceblue;
+    padding: 4px;
+    margin-top: 3%;
+    margin-left: 14px;
+    border-radius: 9px;
+    cursor: pointer;
+    background: transparent;
+    border: 2px solid rgb(198, 194, 194);
+
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover {
+    scale: 1.06;
+    background-color:blue;
+    color: black;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+
+    margin: auto;
+
+}
+ 
+  .colm2 img {
+    height: 70%;
+    margin-left: 8px;
+    margin-top: 46px;
+    width: 300px;
+    position: relative;
+    aspect-ratio: 9/16;
+  } 
+
+h1.text {
+    text-align: center;
+    /* margin: -5px; */
+    padding-left: 8px;
+    font-size: 42px;
+    color: aliceblue;
+}
+.colm2 {
+    text-align: center;
+}
+p.para {
+    color: aliceblue;
+    align-items: center;
+}
+
+/* <------section1----end--> */
+.section2 {
+    background: black;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+.colmn1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.colmn1 :hover {
+    color: #49be25;
+}
+
+.icon-box i {
+    font-size: 100px;
+}
+
+
+
+
+/* section----3---- start */
+
+
+.section3 {
+    /* height: 100%; */
+    width: 100%;
+    background: rgb(14, 107, 168);
+    background: linear-gradient(0deg, rgba(14, 107, 168, 1) 5%, rgba(228, 241, 255, 1) 61%);
+    padding: 100px 0;
+
+}
+
+.row3 {
+    /* padding: 5% 0; */
+    width: 100%;
+    /* height: ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 30px;
+
+}
+
+
+.colm3 {
+
+    width: 300px;
+    position: relative;
+    aspect-ratio: 9/16;
+    transition: all ease-in-out .8s;
+    margin: 0;
+    padding: 0;
+    background: rgba(95, 32, 32, 0.6);
+}
+
+.colm3 img{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.colm3 img:hover {
+    scale: 1.1;
+}
+
+
+.sec3-content{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    background: rgba(95, 32, 32, 0.6);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    cursor: pointer;
+transition: all ease-in-out .8s;
+padding: 30px;
+text-align: center;
+
+}
+
+.colm3:hover{
+    scale: 1.1;
+
+}
+
+.colm3:hover .sec3-content {
+    opacity: 100%;
+
+}
+
+/* colm3:hover .sec-3 content{
+    display: flex;
+} */
+
+
+
+.sec3-content h2 {
+    font-size: 30px;
+    color: #ffe100;
+    /* margin-bottom: 10px; */
+}
+
+.sec3-content p {
+    font-size: 15px;
+    color: aliceblue;
+}
+
+
+
+
+
+
+/* section----3---- End */
+
+
+
+
+.brandLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.brandLogo img {
+    width: 200px;
+    aspect-ratio: 1/1;
+    object-fit: scale-down;
+    filter: invert(1);
+}
+
+
+
+
+.sec-colm-4 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+
+    gap: 20px;
+    text-align: center;
+
+}
+
+.sec-img p img {
+    width: 200px;
+    max-width: 200px;
+    height: 200px;
+    color: aliceblue;
+    border-radius: 110px;
+}
+
+
+.logo img {
+    width: 100%;
+    max-width: 200px;
+    height: 300px;
+    color: white;
+
+}
+
+.section-img {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+
+}
+
+.section-img img {
+    border-radius: 50%;
+    margin-right: 0.5%;
+}
+
+
+/* ----section5 start------- */
+
+.sec5-row {
+    background: black;
+    color: white;
+    padding-bottom: 100px;
+}
+
+.sec5-colm1 {
+    display: flex;
+    width:300px;
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    
+
+}
+
+.sec5-mon{
+    border-bottom: 1px solid black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000029;
+}
+.sec5-mon h4{
+    margin: 50px;
+    font-weight: 500;
+    font-size: 30px;
+}
+.sec5-pn h4{
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.sec5-plan {
+
+    margin: 30px 10%;
+    max-width: 1200px;
+}
+
+.mem-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.sec5-pn {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+button.btn1 {
+    width: 100%;
+    height: 40px;
+    max-width: 242px ;
+    font-size: 17px;
+    background-color: blue;
+    color: white;
+    padding: 4px;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    margin-left: 2px;
+    border-radius: 9px;
+    cursor: pointer;
+
+    border: 2px solid rgb(198, 194, 194);
+}
+button.btn1:hover{
+    color: black;
+    background-color: blue;
+    scale:1.04;
+}
+
+/* <----section5-----end> */
+
+/* ------section6----start-- */
+
+.row6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0;
+}
+.colm6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.colm6 h4{
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.gts{
+    width: 100%;
+    max-width: 150px;
+    height: 40px;
+    background-color: black;
+    margin-top:3%;
+    margin-bottom: 2%;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    border-radius: 11px;
+    cursor: pointer;
+    border: 2px solid rgb(198, 194, 194);
+}
+.gts a{
+    color: white;
+    text-decoration: none;
+}
+
+.gts:hover{
+    background-color:blue;
+    scale: 1.06;
+}
+
+/* <-----section6----end-- */
+.foot-row{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding:1%;
+}
+.foot-colm{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.foot-colm p{
+    font-size: larger;
+}
+
+
+
+
+
+
+
+
+ /* login form css start  */
+
+
+.container-set{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url(img/monlight.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.box-set{
+    width: 420px;
+    border:  2px solid rgba(255,255,255,.2);
+    background:transparent ;
+    padding: 20px;
+    border-radius: 40px;
+    backdrop-filter: blur(20px);
+}
+.box-set .heaidng-form{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+.box-set .input-field{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.box-set .input-field input{
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    border:2px solid white;
+    background: transparent;
+    padding: 20px 45px 20px 20px;
+}
+.box-set .input-field input::placeholder{
+    color: white;
+    font-size: 15px;
+
+}
+.box-set .input-field i{
+    position: absolute;
+    right: 20px;
+    top:30%;
+    color: white;
+    font-size: 20px;
+}
+
+.box-set .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    color: white;
+    
+}
+
+.box-set .remember-forgot a{
+    text-decoration: none;
+    color:white;
+}
+.box-set .remember-forgot a:hover{
+    color: blue;
+}
+ .btn-set{
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border:2px solid white;
+    border-radius: 40px;
+    font-size: larger;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0,0,0,.4);
+    cursor: pointer;
+    
+}
+
+
+.btn-set:hover{
+    scale: 1.06;
+    background-color: blue;
+    color: black;
+}
+.box-set .register{
+    display: flex;
+    justify-content: center;
+    font-size: 14.5px;
+    margin: 20px 0 15px;
+    color: white;
+}
+.register a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16.5px;
+}
+.register a:hover{
+    text-decoration: underline;
+}
+
+
+/* login form css end  */
+
+
+
+/* -------plan-css-start---- */
+
+.sec5-row-p {
+    
+    background: black;
+    color: white;
+    /* padding-bottom: 100px; */
+}
+.mem-block-p{
+    display: grid;
+    grid-template-columns:auto auto auto;
+    grid-template-rows:auto auto auto ;
+    align-items: center;
+    justify-content:space-evenly;
+    margin:20px;
+    gap: 20px;
+    color: black;
+    border-radius: 5px;
+}
+
+.sec5-colm1-p{
+    display: flex;
+    width: 300px;;
+
+
+    height: 300px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    background-color:white;
+    color: black;
+    border-radius: 5px;
+    
+
+}
+
+.sec5-mon{
+    border-bottom: 1px solid black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec5-mon h4{
+    margin: 20px;
+    font-weight: 500;
+    font-size: 30px;
+}
+.sec5-pn h4{
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.sec5-plan {
+
+    margin: 30px 10%;
+    max-width: 1200px;
+}
+
+.mem-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.sec5-pn {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+button.btn1 {
+    width: 100%;
+    height: 40px;
+    max-width: 242px ;
+    font-size: 17px;
+    background-color: blue;
+    color: white;
+    padding: 4px;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    margin-left: 2px;
+    border-radius: 9px;
+    cursor: pointer;
+
+    border: 2px solid rgb(198, 194, 194);
+}
+button.btn1:hover{
+    color: black;
+    background-color: blue;
+    scale:1.04;
+}
+
+/* -------section-plan-css---end--- */
