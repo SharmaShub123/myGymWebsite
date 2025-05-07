@@ -13,66 +13,6 @@ body {
     background-color: rgba(14, 107, 168, 1);
     font-family: "Poppins", sans-serif;
 }
-@media screen and (max-width:880px) {
-    
-    .links{
-        display:none;
-    }
-    .menu{
-        display: block;
-        
-    }
-.navlogo{
-    padding: 0;
-    margin: 0;
-}
-    
-    
-    
-    
-    .row{
-        flex-direction: column;
-        
-        
-    }
-    .colm1{
-        padding: 15px;
-    } 
-     .colm2{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 1px;
-     }
-    .row2{
-        flex-direction: column;
-    }
-    .row3{
-        flex-direction: column;
-    }
-    .brandLogo{
-        flex-direction: column;
-    }
-    .mem-block{
-         justify-content: center;
-        flex-direction: column;
-        gap:50px;
-    }
-    .container{
-        justify-content: space-between;
-       padding: 0 10px;
-    }
-    .box-set{
-    margin: 0 23px;
-    }
-   
-    
-
-    
-
-}
-
 
 
 .container {
@@ -98,6 +38,14 @@ body {
     color: rgba(240, 248, 255, 0.566);
 
 }
+.nav-colm ul{
+    display: flex;
+}
+.nav-colm ul li{
+    list-style: none;
+    margin: 0 23px;
+    font-size: 18px;
+}
 .nav-colm a i{
  font-size: 23px;
  text-decoration: none;
@@ -122,14 +70,16 @@ body {
 }
 
 .logo {
-
     font-size: 44px;
 }
 
-.menu i{
+.nav-colm i{
     font-size: 23px;
     color:aliceblue;
 }
+
+
+
 
 /* <----section1----start----> */
 .section1 {
@@ -780,3 +730,190 @@ button.btn1:hover{
 }
 
 /* -------section-plan-css---end--- */
+
+
+.sidebar {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 400px;
+    width: 250px;
+    z-index: 999;
+    background-color:rgba(14, 107, 168, 1);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.sidebar ul li{
+    color: aliceblue;
+}
+
+/* .sidebar li {
+    list-style: none;
+    margin: 10px 0;
+} */
+.sidebar li{
+    list-style: none;
+    margin: 50px 0;
+    width: 100%;
+
+}
+.menu-button{
+    display: none;
+}
+
+
+.sidebar li a {
+    text-decoration: none;
+    color: black;
+}
+/* // media query */
+@media screen and (max-width:800px) {
+
+    .hiddenMobile {
+        display: none;
+      }
+      
+      .menu-button {
+        display: block;
+      }
+    
+.navlogo{
+    padding: 0;
+    margin: 0;
+}
+    
+    
+    
+    
+    .row{
+        flex-direction: column;
+        
+        
+    }
+    .colm1{
+        padding: 15px;
+    } 
+     .colm2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1px;
+     }
+    .row2{
+        flex-direction: column;
+    }
+    .row3{
+        flex-direction: column;
+    }
+    .brandLogo{
+        flex-direction: column;
+    }
+    .mem-block{
+         justify-content: center;
+        flex-direction: column;
+        gap:50px;
+    }
+    .container{
+        justify-content: space-between;
+       padding: 0 10px;
+    }
+    .box-set{
+    margin: 0 23px;
+    }
+   
+    
+
+    
+
+}
+
+@media (max-width: 500px) {
+    .hiddenMobile {
+        display: none;
+      }
+      
+      .menu-button {
+        display: block;
+      }
+    
+   
+.navlogo{
+    padding: 0;
+    margin: 0;
+}
+    
+    
+    
+    
+    .row{
+        flex-direction: column;
+        
+        
+    }
+    .colm1{
+        padding: 15px;
+    } 
+     .colm2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1px;
+     }
+    .row2{
+        flex-direction: column;
+    }
+    .row3{
+        flex-direction: column;
+    }
+    .brandLogo{
+        flex-direction: column;
+    }
+    .mem-block{
+         justify-content: center;
+        flex-direction: column;
+        gap:50px;
+    }
+    .container{
+        justify-content: space-between;
+       padding: 0 10px;
+    }
+    .box-set{
+    margin: 0 23px;
+    }
+   
+    .mem-block-p{
+        display: grid;
+        grid-template-columns:auto auto auto;
+        grid-template-rows:auto auto auto ;
+        align-items: center;
+        justify-content:space-evenly;
+        margin:20px;
+        gap: 20px;
+        color: black;
+        border-radius: 5px;
+    }
+
+    .sec5-colm1-p{
+        display: flex;
+        width: 300px;;
+    
+    
+        height: 300px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 20px;
+        background-color:white;
+        color: black;
+        border-radius: 5px;
+        
+    
+    }
+}

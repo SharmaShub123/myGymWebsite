@@ -24,15 +24,28 @@
                     <h1 class="logo"> Fitness</h1>
                 </div>
                 <div class="nav-colm">
-                    <a class="links" href="#home">Home</a>
-                    <a class="links" href="#program">Program</a>
-                    <a class="links" href="#choose us">Choose us</a>
-                    <a class="links" href="plan.html" target="_blank">Pricing</a>
-                    <a class="links" href="/login.html" target="_blank">Register now</a>
+                    <ul class="sidebar">
+                        <li onclick="hideSideBar()" ><i class='bx bx-x' style="font-size: 23px;padding-top: 33px;"></i></li>   
+                        <li><a  href="#home">Home</a></li>
+                          <li><a  href="#program">Program</a></li>
+                          <li><a  href="#choose us">Choose us</a></li>
+                          <li><a href="plan.html" target="_blank">Pricing</a></li>
+                          <li><a href="/login.html" target="_blank">Register now</a></li>
+                          
+                      </ul>
+                    <ul>
+                      <li class="hiddenMobile"><a class="links" href="#home">Home</a></li>
+                        <li class="hiddenMobile"><a class="links" href="#program">Program</a></li>
+                        <li class="hiddenMobile"><a class="links" href="#choose us">Choose us</a></li>
+                        <li class="hiddenMobile"><a class="links" href="plan.html" target="_blank">Pricing</a></li>
+                        <li class="hiddenMobile"><a class="links" href="/login.html" target="_blank">Register now</a></li>
+                         <li class="menu-button" onclick ="showSideBar()" ><i class='bx bx-menu'></i></li>
+                    </ul>
+                   
                 </div>
-                    <div>
-                    <a class="menu" href="#"><i class='bx bx-menu'></i></a>
-                </div>
+                    <!-- <div>
+                    <a class="menu" href="#"></a>
+                </div> -->
                 </div>
                 
             </div>
@@ -277,5 +290,17 @@
 </div>
 </footer>
  <!-- <-----footer---end---> 
+  <script>
+   
+    function showSideBar(){
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.display ='flex'
+        }
+
+        function hideSideBar(){
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.style.display ='none'
+        }
+  </script>
 </body>
 </html>
